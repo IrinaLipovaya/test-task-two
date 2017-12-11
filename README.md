@@ -9,11 +9,11 @@ First I designed the pages I was required to build.
 
 ![Forgot password page](./mockups/forgot-password-page.png)
 
-*Btw, the design implementation is fully responsive. Sometimes you don't have any instructions/mock-ups how to make a design look good for tablet/mobile screen sizes. Just rely on your logic and UX knowledge :)*
-
 ## Implementation 
 1. I wanted to implement it as a Single Page app and chose AngularJS to help me with that
 2. To run the project, we need to run a server locally. 
-* `npm install http-server -g`
-* `http-server location-to-the-project-folder`
+    * `npm install http-server -g`
+    * `http-server location-to-the-project-folder`
 3. Open `http://127.0.0.1:8080/` and vualá, you see the login page :)
+
+*Btw, the design implementation is fully responsive. Sometimes you don't have any instructions/mock-ups how to make a design look good for tablet/mobile screen sizes. Just rely on your logic and UX knowledge :)*
