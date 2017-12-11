@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box; }
+
+html, body, .container {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #F9F9F9; }
+
+.container {
+  background: url("../images/background.png") no-repeat;
+  background-size: cover;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.content {
+  width: 480px;
+  height: auto;
+  font-size: 18px; }
+  .content .logo {
+    color: #2896F3;
+    font-size: 3.5em;
+    font-weight: 600;
+    text-align: center; }
+  .content .form-wrapper {
+    width: 100%; }
+    .content .form-wrapper .title {
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 1.5em; }
+    .content .form-wrapper form {
+      width: 100%; }
+      .content .form-wrapper form .input-wrapper {
+        padding-bottom: 1.5em; }
+      .content .form-wrapper form input {
+        background-color: transparent;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: 1px solid rgba(249, 249, 249, 0.7);
+        height: 2.5em;
+        padding: 0.5em;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        color: #F9F9F9; }
+      .content .form-wrapper form .button-wrapper {
+        padding-top: 1em;
+        text-align: center; }
+      .content .form-wrapper form .button-primary {
+        min-width: 200px;
+        height: 50px;
+        text-align: center;
+        background-color: #2896F3;
+        border: none;
+        font-size: 1em;
+        color: #F9F9F9;
+        border-radius: 25px;
+        cursor: pointer; }
+    .content .form-wrapper .links-wrapper {
+      text-align: center;
+      font-weight: 300;
+      font-size: 0.9em; }
+      .content .form-wrapper .links-wrapper .bottom-link {
+        margin-top: 5em; }
+      .content .form-wrapper .links-wrapper .second-link {
+        margin-top: 3em; }
+      .content .form-wrapper .links-wrapper a {
+        color: #2896F3;
+        text-decoration: none; }
+    .content .form-wrapper .reset-description {
+      font-size: 0.9em;
+      padding-bottom: 0.5em; }
+    .content .form-wrapper .welcome-message {
+      text-align: center; }
+
+/*# sourceMappingURL=app.css.map */

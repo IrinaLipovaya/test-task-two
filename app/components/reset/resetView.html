@@ -1,0 +1,13 @@
+<h2 class="title">Forgot password</h2>
+<p class="reset-description">Enter you email and we’ll send you a link to reset your password</p>
+<form name="resetForm" ng-submit="vm.reset(resetForm.$valid)">
+    <div class="input-wrapper email">
+        <input type="email" name="email" id="email" ng-model="vm.email" placeholder="Email" required >
+    </div>
+    <div class="button-wrapper">
+        <button type="submit" class="button-primary">Reset</button>
+    </div>
+</form>
+<div class="links-wrapper">
+    <p class="bottom-link">Go to <a href="/#!/login">Login page</a></p>
+</div>

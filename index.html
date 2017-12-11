@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CarPal</title>
+    <link href="./assets/css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+    <script src="./app/app.js"></script>
+    <script src="./app/components/login/loginController.js"></script>
+    <script src="./app/components/signup/signupController.js"></script>
+    <script src="./app/components/reset/resetController.js"></script>
+</head>
+<body ng-app="app">
+    <div class="container">
+        <div class="content">
+            <p class="logo">CarPal</p>
+            <div ng-view class="form-wrapper">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
